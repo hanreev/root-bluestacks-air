@@ -37,7 +37,7 @@ Tested on BlueStacks Air
 
 - Execute `root.sh` specifying initrd output path and backup directory
   ```bash
-  bash root.sh -o files/initrd_hvf.img -b files/backup
+  sudo bash root.sh -o files/initrd_hvf.img -b files/backup
   ```
   the above command will backup the original `initrd_hvf.img` in `files/backup` and create a patched one in `files/initrd_hvf.img`, you may specify a different path for the output and backup directory
 - Copy the patched `initrd_hvf.img` to `/Applications/BlueStacks.app/Contents/img/` and replace the original one
